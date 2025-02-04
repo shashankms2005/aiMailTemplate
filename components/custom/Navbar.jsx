@@ -1,14 +1,20 @@
-import React from 'react';
-import Image from 'next/image';
-import { Button } from '../ui/button';
+import React from "react";
+import Image from "next/image";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div>
-        <Image src={'/logo.jpg'}  width={500} height={300} alt="logo" />
-        <Button >Get started</Button>
+    <div className="mt-2 flex items-center justify-between mx-2">
+      <Image
+        src={"/logo.jpg"}
+        width={120}
+        height={50}
+        alt="logo"
+        className="rounded-2xl"
+      />
+      <Button>Get started</Button>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
