@@ -4,11 +4,11 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div className="mt-2 flex items-center justify-between mx-2">
+    <div className="mt-2 flex items-center justify-between mx-4">
       <Image
         src={"/logo.jpg"}
         width={120}
-        height={50}
+        height={10}
         alt="logo"
         className="rounded-2xl"
       />
