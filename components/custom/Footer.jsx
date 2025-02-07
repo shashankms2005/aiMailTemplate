@@ -8,7 +8,7 @@ const Footer = () => {
       src="/Looper BG.png" 
       layout="fill" 
       objectFit="cover" 
-      className="absolute bottom-0"
+      className="absolute -z-10 bottom-0"
       alt="footer"
     />
 

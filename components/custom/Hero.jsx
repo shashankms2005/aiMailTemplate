@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import SignInButton from "./SignInButton";
 const Hero = () => {
   return (
     <div className="grid place-content-center mt-4">
@@ -23,9 +24,7 @@ const Hero = () => {
           >
             Try Demo
           </Button>
-          <Button className="bg-[linear-gradient(180deg,#497CFF_0%,#001664_100%)] font-semibold hover:bg-white hover:text-black text-white transition p-2 rounded-lg">
-            Get Started
-          </Button>
+          <SignInButton />
         </div>
       </div>
     </div>
