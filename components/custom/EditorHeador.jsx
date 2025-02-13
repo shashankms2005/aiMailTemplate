@@ -5,7 +5,7 @@ import { Code, Link, Monitor, Smartphone } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-const EditorHeador = () => {
+const EditorHeador = ({ viewHTMLCode }) => {
   const { screenSize, setScreenSize } = useScreenSize();
   return (
     <div className="mx-2 flex items-center justify-between">
@@ -35,7 +35,7 @@ const EditorHeador = () => {
         </div>
       </div>
       <div className="flex gap-3 items-center justify-between">
-        <Button variant="ghost">
+        <Button variant="ghost" onClick={() => viewHTMLCode(true)}>
           <Code className="text-primary" />
         </Button>
         <Button
