@@ -1,4 +1,4 @@
-import { GenerateEmailTemplateAiModel } from "@/config/AiModel";
+import { GenerateEmailTemplateAiModel } from "@/Config/AiModel.jsx";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
