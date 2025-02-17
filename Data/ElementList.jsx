@@ -33,9 +33,7 @@ export default [
       objectFit: "contain",
     },
     outerStyle: {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
+      backgroundColor: "#fff",
       width: "100%",
     },
   },
